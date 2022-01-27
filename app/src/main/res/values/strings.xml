@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BloodDonationApp</string>
+
+    <string-array name="blood_type_array">
+        <item>--Please select your blood type--</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>o+</item>
+        <item>o-</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

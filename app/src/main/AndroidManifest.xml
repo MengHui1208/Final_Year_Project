@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.blooddonationapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar">
+        <activity
+            android:name=".PublicDonationRecordDetail"
+            android:exported="true" />
+        <activity
+            android:name=".AdminNotification"
+            android:exported="true" />
+        <activity
+            android:name=".AdminSearchDonor"
+            android:exported="true" />
+        <activity
+            android:name=".PublicSearchDonor"
+            android:exported="true" />
+        <activity
+            android:name=".PublicDonationEventDetail"
+            android:exported="true" />
+        <activity
+            android:name=".PublicDonationEvent"
+            android:exported="true" />
+        <activity
+            android:name=".AdminBloodRequestDetail"
+            android:exported="true" />
+        <activity
+            android:name=".AdminBloodRequestPendingDetail"
+            android:exported="true" />
+        <activity
+            android:name=".AdminBloodRequest"
+            android:exported="true" />
+        <activity
+            android:name=".AdminDonationEventDetail"
+            android:exported="true" />
+        <activity
+            android:name=".AdminCreateDonationEvent"
+            android:exported="true" />
+        <activity
+            android:name=".AdminDonationEvent"
+            android:exported="true" />
+        <activity
+            android:name=".AdminProfileEdit"
+            android:exported="true" />
+        <activity
+            android:name=".AdminProfile"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".PublicCreateRecord"
+            android:exported="true" />
+        <activity
+            android:name=".PublicDonationRecord"
+            android:exported="true" />
+        <activity
+            android:name=".PublicOtherRequestDetail"
+            android:exported="true" />
+        <activity
+            android:name=".PublicBloodRequestDetail"
+            android:exported="true" />
+        <activity
+            android:name=".PublicOtherRequest"
+            android:exported="true" />
+        <activity
+            android:name=".PublicCreateRequest"
+            android:exported="true" />
+        <activity
+            android:name=".PublicMyRequest"
+            android:exported="true" />
+        <activity
+            android:name=".PublicBloodRequest"
+            android:exported="true" />
+        <activity
+            android:name=".PublicProfileEdit"
+            android:exported="true" />
+        <activity
+            android:name=".PublicProfile"
+            android:exported="true" />
+        <activity
+            android:name=".PublicNotification"
+            android:exported="true" />
+        <activity
+            android:name=".AdminSignUp"
+            android:exported="true" />
+        <activity
+            android:name=".PublicSignUp"
+            android:exported="true" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="true" />
+        <activity
+            android:name=".PublicLogin"
+            android:exported="true" />
+        <activity
+            android:name=".FirstPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

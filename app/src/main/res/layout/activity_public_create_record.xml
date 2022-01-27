@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PublicCreateRecord">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/layoutTopBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_red">
+
+                <ImageView
+                    android:id="@+id/backToMenu"
+                    android:layout_width="40dp"
+                    android:layout_height="?actionBarSize"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_back" />
+
+                <TextView
+                    android:id="@+id/mainText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="0.8"
+                    android:text="Donation Record"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutTopBar"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/shadow2">
+
+                <LinearLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/fullname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Create Donation Record"
+                        android:textColor="@color/black_front"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layout1"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Date:"
+                    android:textColor="@color/main_red"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView1"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Select a date"
+                    android:textColor="@color/black_front"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtDate"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Amount(ml):"
+                    android:textColor="@color/main_red"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView2"
+                    android:layout_marginHorizontal="25dp"
+                    android:hint="Amount"
+                    android:textColor="@color/black_front"
+                    android:textColorHint="@color/grey_front" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtAmount"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Venue:"
+                    android:textColor="@color/main_red"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtVenue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView3"
+                    android:layout_marginHorizontal="25dp"
+                    android:hint="Venue"
+                    android:textColor="@color/black_front"
+                    android:textColorHint="@color/grey_front" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtVenue"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Approved By:"
+                    android:textColor="@color/main_red"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtApprovedBy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView4"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="20dp"
+                    android:hint="Staff Name"
+                    android:textColor="@color/black_front"
+                    android:textColorHint="@color/grey_front" />
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageRecord"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/textView4"-->
+<!--                    android:layout_marginStart="12dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:layout_marginEnd="12dp"-->
+<!--                    android:adjustViewBounds="true"-->
+<!--                    android:contentDescription="@string/app_name"-->
+<!--                    android:visibility="gone"-->
+<!--                    app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/btnAddImage"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/imageRecord"-->
+<!--                    android:layout_marginHorizontal="20dp"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:layout_marginBottom="20dp"-->
+<!--                    android:background="@drawable/button_red"-->
+<!--                    android:gravity="center"-->
+<!--                    android:paddingHorizontal="12dp"-->
+<!--                    android:paddingVertical="12dp"-->
+<!--                    android:text="Add Image"-->
+<!--                    android:textColor="@color/main_red"-->
+<!--                    android:textSize="18sp" />-->
+
+                <!--                <ImageView-->
+<!--                    android:id="@+id/imageRecord"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_below="@id/textView4"-->
+<!--                    android:layout_marginHorizontal="25dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:layout_marginBottom="20dp"-->
+<!--                    android:adjustViewBounds="true"-->
+<!--                    android:background="@drawable/shadow3"-->
+<!--                    android:contentDescription="@string/app_name"-->
+<!--                    android:paddingVertical="100dp"-->
+<!--                    app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/myImageViewText"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/imageRecord"-->
+<!--                    android:layout_alignLeft="@+id/imageRecord"-->
+<!--                    android:layout_alignTop="@+id/imageRecord"-->
+<!--                    android:layout_alignRight="@+id/imageRecord"-->
+<!--                    android:layout_alignBottom="@+id/imageRecord"-->
+<!--                    android:layout_marginStart="1dp"-->
+<!--                    android:layout_marginLeft="1dp"-->
+<!--                    android:layout_marginTop="-1dp"-->
+<!--                    android:layout_marginEnd="1dp"-->
+<!--                    android:layout_marginRight="1dp"-->
+<!--                    android:layout_marginBottom="3dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="Upload Image"-->
+<!--                    android:textColor="@color/grey_front"-->
+<!--                    android:textStyle="bold" />-->
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relativeLayout1"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_red"
+                android:gravity="center"
+                android:paddingVertical="12dp"
+                android:text="Create record"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                app:backgroundTint="@color/main_red" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/drawable/badge.xml" value="0.2703125" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/drawable/button.xml" value="0.2703125" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/drawable/button_red.xml" value="0.2703125" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/drawable/button_white.xml" value="0.2703125" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/drawable/ic_back.xml" value="0.2703125" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/drawable/ic_home.xml" value="0.2703125" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/drawable/ic_notification.xml" value="0.2703125" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/drawable/selector.xml" value="0.2703125" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/drawable/shadow2.xml" value="0.2703125" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/drawable/shadow3.xml" value="0.2703125" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/drawable/white_button.xml" value="0.2703125" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_admin_blood_request.xml" value="0.24365942028985507" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_admin_blood_request_approved_detail.xml" value="0.2346014492753623" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_admin_blood_request_pending.xml" value="0.24365942028985507" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_admin_blood_request_pending_detail.xml" value="0.24365942028985507" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_admin_create_donation_record.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_admin_donation_event.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_admin_donation_event_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_admin_donation_record_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_admin_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_admin_notification.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_admin_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_admin_profile_edit.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_admin_search_donor.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_admin_sign_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_first_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_item_admin_blood_request.xml" value="0.24365942028985507" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_main2.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_blood_request.xml" value="0.264" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_blood_request_detail.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_blood_request_list.xml" value="0.21195652173913043" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_create_record.xml" value="0.2346014492753623" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_create_request.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_donation_event.xml" value="0.22509057971014493" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_donation_event_detail.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_donation_record.xml" value="0.2346014492753623" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_donation_record_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_event.xml" value="0.2346014492753623" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_my_request.xml" value="0.21195652173913043" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_notification.xml" value="0.2346014492753623" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_other_request.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_other_request_detail.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_profile_edit.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_search_donor.xml" value="0.20471014492753623" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_public_signup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/activity_testing_public_other_request.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/admin_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/first_page.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/fragment_admin_blood_request_approved.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/fragment_admin_blood_request_rejected.xml" value="0.2346014492753623" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/fragment_event.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/fragment_home.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/fragment_notification.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/fragment_profile.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/item_admin_blood_request.xml" value="0.24365942028985507" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/item_admin_donation_event.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/item_admin_notification.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/item_blood_request.xml" value="0.20516304347826086" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/item_notification.xml" value="0.264" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/item_other_blood_request.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/item_public_donation_event.xml" value="0.22509057971014493" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/item_public_donation_record.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/item_public_notification.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/item_search_donor.xml" value="0.20471014492753623" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/public_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/public_signup.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/layout/testing_item_other_request.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/menu/main_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/menu/menu_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/menu/menu_navigation2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/BloodDonationApp/app/src/main/res/menu/nav_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

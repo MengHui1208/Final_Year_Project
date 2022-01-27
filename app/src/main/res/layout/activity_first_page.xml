@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FirstPage"
+    android:background="@color/main_red">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Welcome to MH Blood App"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_below="@id/textView"
+        android:text="Change Your Account"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnPublic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_white"
+        android:gravity="center"
+        android:paddingVertical="12dp"
+        android:text="Donor/Seeker"
+        android:textColor="@color/main_red"
+        android:textSize="18sp"
+        app:backgroundTint="@color/white" />
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPublic"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_white"
+        android:gravity="center"
+        android:paddingVertical="12dp"
+        android:text="Hospital Admin"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
